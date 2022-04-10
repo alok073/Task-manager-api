@@ -5,11 +5,13 @@ const auth = require("../middleware/auth");
 /*
 ROUTES:-
 
-1] POST "/users"
-2] GET "/users"
-3] GET "/users/:id"
-4] PATCH "/users/:id"
-5] DELETE "users/:id"
+1] POST: /users
+2] POST: /users/login
+3] GET: /users/me
+4] PATCH: /users/me
+5] POST: /users/logout
+6] POST: /users/logoutAll
+7] DELETE: /users/me
 
 */
 
